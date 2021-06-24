@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ReSTIRPass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReSTIRPass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderSource Include="Shading.ps.slang" />
+    <ShaderSource Include="SpatialUpdate.cs.slang" />
+    <ShaderSource Include="SamplePlusTemporal.rt.slang" />
+  </ItemGroup>
+</Project>
